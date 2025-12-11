@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -29,7 +29,6 @@ export default function LandingPage() {
         <NavbarLayoutFloatingOverlay
           brandName="Krokodilo Bombardino"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1765461721553-s95l9o5c.jpg"
-          logoAlt="Krokodilo Bombardino Restaurant Logo"
           navItems={[
             { name: "Home", id: "hero" },
             { name: "About", id: "about" },
@@ -131,7 +130,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground="noInvert"
           containerClassName="py-24"
-          titleClassName="text-4xl font-light"
+          textBoxTitleClassName="text-4xl font-light"
           carouselMode="buttons"
         />
       </div>
@@ -198,7 +197,7 @@ export default function LandingPage() {
           useInvertedBackground="noInvert"
           carouselMode="buttons"
           containerClassName="py-24"
-          titleClassName="text-4xl font-light"
+          textBoxTitleClassName="text-4xl font-light"
         />
       </div>
 
@@ -287,7 +286,6 @@ export default function LandingPage() {
       <div id="footer" data-section="footer">
         <FooterCard
           logoText="Krokodilo Bombardino"
-          logoAlt="Krokodilo Bombardino Logo"
           copyrightText="© 2025 Krokodilo Bombardino. All rights reserved. Fine Italian Dining Excellence since 1999."
           socialLinks={[
             {
